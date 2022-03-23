@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootsrap CSS link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- CSS link Custom -->
+    <link rel="stylesheet" href="estilo.css" />
+    <!-- Google Fonts link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>Latitud 32</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark laNav">
+      <div class="container-fluid">
+        <a class="navbar-brand latitud32" href="./index.html">Latitud 32</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav elFont">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./artistas.html"
+                >Artistas</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./eventos.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Archivo Visual</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <!-- Carusel -->
+      <div
+        id="myCarousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+          ></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+          <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="overlay-image img-fluid"
+              style="
+                background-image: url(./imagenes/sonar-barcelona-festival-musica-01.jpg);
+              "
+            ></div>
+            <div class="container elFont textointro">
+              <h1>Subtitulo</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                maxime fugiat nesciunt facilis possimus ratione.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="overlay-image img-fluid"
+              style="
+                background-image: url(./imagenes/barcelona-primavera-sound.jpg);
+              "
+            ></div>
+            <div class="container elFont textointro">
+              <h1>Subtitulo 2</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                dignissimos rem possimus reiciendis minus nihil.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="overlay-image img-fluid"
+              style="
+                background-image: url(./imagenes/ECDIMA20170818_0014_1.jpg);
+              "
+            ></div>
+            <div class="container elFont textointro">
+              <h1>Subtitulo 3</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, numquam repellat! Nostrum voluptas laudantium
+                tempora ab porro!
+              </p>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#myCarousel"
+          class="carousel-control-prev"
+          role="button"
+          data-bs-slide="prev"
+          ><span class="sr-only"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a
+          href="#myCarousel"
+          class="carousel-control-next"
+          role="button"
+          data-bs-slide="next"
+          ><span class="sr-only"></span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <!-- Noticias -->
+      <h1 class="text-center mb-5 my-5 text-light elFont">Noticias</h1>
+      <div class="mx-5 mb-5 px-5">
+        <ol class="list-group list-group-numbered">
+          <li
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+          </li>
+          <li
+            class="list-group-item d-flex justify-content-between align-items-start"
+          >
+            <div class="ms-2 me-auto">
+              <div class="fw-bold">Subheading</div>
+              Content for list item
+            </div>
+            <span class="badge bg-primary rounded-pill">14</span>
+          </li>
+        </ol>
+      </div>
+    </main>
+    <footer class="text-white">
+      <!-- Copyright y Social Media -->
+      <div class="conteiner-fluid d-flex justify-content-around pt-3">
+        <div class="row">
+          <p class="col-12">© 2022 Copyright</p>
+        </div>
+        <div class="col-2">
+          <a class="p-2" href="#"
+            ><img src="./imagenes/icons8-facebook-30.png" alt=""
+          /></a>
+          <a class="p-2" href="#"
+            ><img src="./imagenes/icons8-instagram-30.png" alt=""
+          /></a>
+          <a class="p-2" href="#"
+            ><img src="./imagenes/icons8-twitter-30.png" alt=""
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
