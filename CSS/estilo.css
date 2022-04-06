@@ -1,0 +1,221 @@
+.laNav {
+  background-color: black;
+}
+
+.laNav .latitud32 {
+  font-family: "Monoton", cursive;
+  font-family: "Permanent Marker", cursive;
+  color: white;
+}
+
+.elFont {
+  font-family: "Expletus Sans", cursive;
+}
+
+.textointro {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-name: textointro;
+  animation-name: textointro;
+}
+
+@-webkit-keyframes textointro {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textointro {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.carousel-item {
+  height: 42rem;
+  background-color: black;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-item .overlay-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel-item .container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-left: 34rem;
+  padding-bottom: 20rem;
+}
+
+.carousel-item .elSub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 23rem;
+}
+
+.carousel-item .elSub .elFont {
+  font-family: "Expletus Sans", cursive;
+}
+
+h2 a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 a .elFont {
+  font-family: "Expletus Sans", cursive;
+}
+
+h2 :hover {
+  color: red;
+}
+
+h4 .Noti {
+  color: white;
+  text-decoration: none;
+}
+
+h4 :hover {
+  color: red;
+}
+
+.trending-top .trend-top-img img {
+  border-color: white;
+  border-radius: 1%;
+}
+
+.trend-top-cap {
+  position: relative;
+  bottom: 120px;
+  left: 31px;
+  color: white;
+}
+
+.trend-top-cap .elFont {
+  font-family: "Expletus Sans", cursive;
+}
+
+.trand-right-cap {
+  color: white;
+}
+
+.trand-right-cap .elFont {
+  font-family: "Expletus Sans", cursive;
+}
+
+.textoartistas {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: textoartistas;
+  animation-name: textoartistas;
+}
+
+@-webkit-keyframes textoartistas {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes textoartistas {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lasCards {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 10rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.lasCards .elbounce:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.lasCards .arti {
+  text-align: center;
+}
+
+footer {
+  margin-top: auto;
+  background-color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #020024;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#020024),
+    color-stop(100%, #5c5c5c),
+    to(#00d4ff)
+  );
+  background: linear-gradient(180deg, #020024 0%, #5c5c5c 100%, #00d4ff 100%);
+}
+
+@media (max-width: 768px) {
+  .textoEventos {
+    text-align: center;
+  }
+}

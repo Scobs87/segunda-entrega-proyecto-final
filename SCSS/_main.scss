@@ -1,0 +1,129 @@
+// Texto Carusel
+
+.textointro {
+  animation-duration: 2s;
+  animation-name: textointro;
+  @keyframes textointro {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.carousel-item {
+  height: 42rem;
+  background-color: black;
+  color: $elWhite;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+  }
+  .container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 34rem;
+    padding-bottom: 20rem;
+  }
+  .elSub {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 23rem;
+    .elFont {
+      font-family: "Expletus Sans", cursive;
+    }
+  }
+}
+
+h2 {
+  a {
+    color: $elWhite;
+    text-decoration: none;
+    .elFont {
+      font-family: "Expletus Sans", cursive;
+    }
+  }
+  :hover {
+    color: red;
+  }
+}
+
+h4 {
+  .Noti {
+    color: $elWhite;
+    text-decoration: none;
+  }
+  :hover {
+    color: red;
+  }
+}
+
+.trending-top .trend-top-img img {
+  border-color: $elWhite;
+  border-radius: 1%;
+}
+
+.trend-top-cap {
+  position: relative;
+  bottom: 120px;
+  left: 31px;
+  color: $elWhite;
+  .elFont {
+    font-family: "Expletus Sans", cursive;
+  }
+}
+
+.trand-right-cap {
+  color: $elWhite;
+  .elFont {
+    font-family: "Expletus Sans", cursive;
+  }
+}
+
+// Texto pagina Artistas
+
+.textoartistas {
+  animation-duration: 3s;
+  animation-name: textoartistas;
+  @keyframes textoartistas {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.lasCards {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 10rem;
+  transition: 1s;
+  .elbounce:hover {
+    transform: scale(1.1);
+  }
+  .arti {
+    text-align: center;
+  }
+}
